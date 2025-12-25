@@ -351,7 +351,7 @@ body {
 @media(max-width: 600px) {
   body {
     width: 100%;
-    margin: 0;
+    margin: 0 auto;
   }
 
   .navbar {
@@ -384,7 +384,7 @@ body {
   }
 
   .main_page_content {
-    padding-left: 55px;
+    padding-left: 60px;
   }
 
   .home {
