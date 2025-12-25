@@ -210,7 +210,7 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .project_card {
@@ -384,7 +384,7 @@ body {
   }
 
   .main_page_content {
-    padding-left: 70px;
+    padding-left: 65px;
   }
 
   .home {
@@ -476,7 +476,7 @@ body {
 
   .close_button{
     top: 1%;
-    left: 94%;
+    left: 93%;
     /* font-size: 18px; */
   }
 
