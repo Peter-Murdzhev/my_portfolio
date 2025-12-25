@@ -416,7 +416,7 @@ body {
     width: 130px;
     height: 40px;
     margin-left: 70px;
-    margin-bottom: 80px;
+    margin-bottom: 120px;
   }
 
   .skills{
@@ -459,7 +459,7 @@ body {
   }
 
   .website_details_window{
-    width: 270px;
+    width: 280px;
     padding: 25px;
     margin: 0;
   }
