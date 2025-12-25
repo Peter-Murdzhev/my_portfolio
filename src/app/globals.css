@@ -357,7 +357,7 @@ body {
   .navbar {
     position: fixed;
     width: 55px;
-    height: 500px;
+    height: 600px;
     gap: 30px;
     align-items: flex-start;
   }
@@ -389,12 +389,12 @@ body {
 
   .home {
     flex-direction: column;
-    width: 200px;
+    width: 220px;
     height: 400px;
     gap: 20px;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 120px;
+    margin-bottom: 160px;
   }
 
   .about_me{
@@ -407,28 +407,28 @@ body {
 
   .about_me p{
     font-size: 17px;
-    width: 250px;
+    width: 280px;
   }
 
   .contact_call_action{
     font-size: 15px;
     width: 130px;
     height: 40px;
-    margin-left: 50px;
+    margin-left: 60px;
   }
 
   .skills{
-    width: 240px;
-    padding: 5px;
+    width: 260px;
+    padding: 10px;
     gap: 0;
-    margin-bottom: 120px;
+    margin-bottom: 220px;
   }
 
   .skills_category button{
     font-size: 14px;
     padding: 10px;
-    margin: 0;
-    width: 110px;
+    margin: 2px;
+    width: 120px;
     height: 30px;
   }
 
@@ -449,10 +449,11 @@ body {
 
   .projects{
     grid-template-columns: repeat(1,1fr);
+    margin-bottom: 50px;
   }
 
   .project_card{
-    width: 200px;
+    width: 220px;
   }
 
   .website_details_window{
@@ -462,14 +463,13 @@ body {
   }
 
   .website_details_window img{
-    width: 230px;
-    height: 120px;
+    width: 250px;
+    height: 140px;
   }
 
   .website_details_window.active{
     flex-direction: column;
     gap: 0;
-    
   }
 
   .close_button{
