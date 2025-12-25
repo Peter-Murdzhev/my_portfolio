@@ -384,7 +384,7 @@ body {
   }
 
   .main_page_content {
-    padding-left: 60px;
+    padding-left: 70px;
   }
 
   .home {
@@ -394,11 +394,12 @@ body {
     gap: 20px;
     padding: 20px;
     margin-top: 20px;
-    margin-bottom: 160px;
+    margin-bottom: 180px;
   }
 
   .about_me{
     flex-direction: column;
+
   }
 
   .about_me img{
@@ -414,14 +415,15 @@ body {
     font-size: 15px;
     width: 130px;
     height: 40px;
-    margin-left: 60px;
+    margin-left: 70px;
+    margin-bottom: 80px;
   }
 
   .skills{
     width: 260px;
     padding: 10px;
     gap: 0;
-    margin-bottom: 220px;
+    margin-bottom: 260px;
   }
 
   .skills_category button{
@@ -449,7 +451,7 @@ body {
 
   .projects{
     grid-template-columns: repeat(1,1fr);
-    margin-bottom: 50px;
+    margin-bottom: 120px;
   }
 
   .project_card{
@@ -458,7 +460,7 @@ body {
 
   .website_details_window{
     width: 270px;
-    padding: 20px;
+    padding: 25px;
     margin: 0;
   }
 
