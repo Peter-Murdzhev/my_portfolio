@@ -22,7 +22,7 @@ const SectionTracker = () => {
                 //trigger tab update when % of the page is visible
                 //0.5 for 50%
                 threshold: isMobile ? 0 : 0.6,
-                rootMargin: isMobile ? "-30% 0px -30% 0px" : "0px 0px 0px 0px",
+                rootMargin: isMobile ? "-50% 0px -50% 0px" : "0px 0px 0px 0px",
             }
         );
 

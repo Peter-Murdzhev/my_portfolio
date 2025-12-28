@@ -6,9 +6,20 @@ body {
   min-height: 100vh;
 }
 
+section {
+  min-height: 100vh;
+  /* scroll-snap-align: start; */
+}
+
+.section > .content {
+  max-width: 1200px;
+  margin-inline: auto;
+  padding: 2rem;
+}
+
 .navbar {
   width: 167px;
-  height: 520px;
+  height: 100vh;
   background-color: rgb(69, 61, 61);
   padding: 5px;
   display: flex;
@@ -74,7 +85,7 @@ body {
   background-color: rgb(69, 61, 61);
   color: rgb(190, 188, 188);
   text-shadow: rgb(81, 81, 81);
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 
 .home img {
@@ -210,7 +221,7 @@ body {
   display: grid;
   place-items: center;
   grid-template-columns: repeat(3, 1fr);
-  margin-bottom: 120px;
+  margin-bottom: 100px;
 }
 
 .project_card {
@@ -357,7 +368,7 @@ body {
   .navbar {
     position: fixed;
     width: 55px;
-    height: 600px;
+    height: 100dvh;
     gap: 30px;
     align-items: flex-start;
   }
@@ -393,8 +404,7 @@ body {
     height: 400px;
     gap: 20px;
     padding: 20px;
-    margin-top: 20px;
-    margin-bottom: 180px;
+    margin-top: 70px;
   }
 
   .about_me{
@@ -416,14 +426,13 @@ body {
     width: 130px;
     height: 40px;
     margin-left: 70px;
-    margin-bottom: 120px;
   }
 
   .skills{
     width: 260px;
     padding: 10px;
     gap: 0;
-    margin-bottom: 260px;
+    margin-top: 80px;
   }
 
   .skills_category button{
@@ -441,6 +450,7 @@ body {
   .skills_list li{
     font-size: 16px;
     margin: 2px;
+    padding: 2px;
     padding-left: 0;
   }
 
@@ -451,7 +461,6 @@ body {
 
   .projects{
     grid-template-columns: repeat(1,1fr);
-    margin-bottom: 120px;
   }
 
   .project_card{
@@ -487,6 +496,7 @@ body {
 
   .website_details p{
     font-size: 14px;
+    padding: 3px;
   }
 
   .contacts{
