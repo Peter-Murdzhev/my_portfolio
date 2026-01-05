@@ -4,11 +4,9 @@ export const projects = [
         name: "Cooking forum",
         description: "Culinary forum where you can find any kind of recipes. " +
         "You can create an account and add, edit or delete your own recipes. " +
-        "You can add favourite recipes and write comments on them. " +
-        "When you open the link it takes 2 minutes for the website to boot. " + 
-        "Thanks for the patience!",
+        "You can add favourite recipes and write comments on them. ",
         technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
-        link: "https://cookingland.onrender.com/"
+        link: "https://cooking-forum-268a2299.koyeb.app/"
     },
     {
         imageURL: "/website_covers/clothing_store_cover.jpg",
