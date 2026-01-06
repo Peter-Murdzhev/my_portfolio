@@ -6,7 +6,7 @@ export const projects = [
         "You can create an account and add, edit or delete your own recipes. " +
         "You can add favourite recipes and write comments on them. ",
         technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
-        link: "https://cooking-forum-268a2299.koyeb.app/"
+        link: "https://cookingland-268a2299.koyeb.app/"
     },
     {
         imageURL: "/website_covers/clothing_store_cover.jpg",
