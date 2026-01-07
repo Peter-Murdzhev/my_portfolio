@@ -4,7 +4,8 @@ export const projects = [
         name: "Cooking forum",
         description: "Culinary forum where you can find any kind of recipes. " +
         "You can create an account and add, edit or delete your own recipes. " +
-        "You can add favourite recipes and write comments on them. ",
+        "You can add favourite recipes and write comments. " +
+        "Initial website loading may take 20 seconds. ",
         technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
         link: "https://cookingland-268a2299.koyeb.app/"
     },
@@ -20,8 +21,9 @@ export const projects = [
     {
         imageURL: "/website_covers/movies_search_website_cover.jpg",
         name: "Movies finder website",
-        description: "Website where you can find info about any movie you want. "+
-        "The database I've connected to is pretty rich. So enjoy!",
+        description: "Website where you can find info about any movie you want. " +
+        "The info includes movie's reviews if there's any. A trailer for more popular movies. " +
+        "I'm using TMDB API which has a pretty rich database. So enjoy!",
         technologies: ["React"],
         link: "https://movies-finder-puce.vercel.app/"
     },
