@@ -7,7 +7,7 @@ export const projects = [
         "You can add favourite recipes and write comments. " +
         "Initial website loading may take 20 seconds. ",
         technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
-        link: "https://cookingland-268a2299.koyeb.app/"
+        link: "https://cookingland-c30b65be.koyeb.app/"
     },
     {
         imageURL: "/website_covers/clothing_store_cover.jpg",

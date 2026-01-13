@@ -292,6 +292,31 @@ section {
   color: rgb(190, 188, 188);
 }
 
+.technologies{
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+}
+
+.technologies p,ul{
+  padding: 1px;
+}
+
+.technologies ul{
+  display: flex;
+  flex-direction: row;
+  gap:4px;
+}
+
+.technologies li{
+  list-style-type: none;
+}
+
+.technologies li:not(li:last-child)::after{
+  content: ", ";
+}
+
 .contacts {
   display: flex;
   flex-direction: column;

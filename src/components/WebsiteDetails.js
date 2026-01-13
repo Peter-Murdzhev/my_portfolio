@@ -15,7 +15,12 @@ const WebsiteDetails = ({ project, toggleFullInfo, setToggleFullInfo }) => {
             <div className="website_details">
                 <p>Name: {project.name}</p>
                 <p>{project.description}</p>
-                <p>Technologies: {project.technologies.map(tech => (tech + ", "))} </p>
+                <div className="technologies">
+                    <p>Technologies:</p>
+                    <ul>
+                        {project.technologies.map((tech, index) => (<li key={index}>{tech}</li>))}
+                    </ul>
+                </div>
                 <p>Visit: <Link href={project.link}>{project.link}</Link></p>
             </div>
         </div>
