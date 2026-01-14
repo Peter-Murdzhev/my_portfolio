@@ -311,6 +311,7 @@ section {
 
 .technologies li{
   list-style-type: none;
+  
 }
 
 .technologies li:not(li:last-child)::after{
@@ -456,7 +457,7 @@ section {
   .skills{
     width: 260px;
     padding: 10px;
-    gap: 0;
+    gap: 30px;
     margin-top: 80px;
   }
 
@@ -473,10 +474,9 @@ section {
   }
 
   .skills_list li{
-    font-size: 16px;
+    font-size: 15px;
     margin: 2px;
     padding: 2px;
-    padding-left: 0;
   }
 
   .skills_list li::before {
@@ -522,6 +522,16 @@ section {
   .website_details p{
     font-size: 14px;
     padding: 3px;
+  }
+
+  .technologies{
+    font-size: 14px;
+    align-items: baseline;
+  }
+
+  .technologies ul{
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .contacts{
