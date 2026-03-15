@@ -1,5 +1,16 @@
 export const projects = [
     {
+        imageURL: "/website_covers/books_hunter.jpg",
+        name: "Books Hunter",
+        description: "A website for searching any books worldwide. " +
+        "You can find information about any book you want. " +
+        "On the homepage you receive a list with the New York Times bestsellers. " +
+        "You can create an acount and keep a list of your favourite books. " +
+        "The system estimates user preferred genres and recommends books for you. ",
+        technologies: ["Next", "Tailwind", "Supabase", "TypeScript"],
+        link: "https://books-hunter-web.vercel.app/"
+    },
+    {
         imageURL: "/website_covers/cooking_forum_cover.jpg",
         name: "Cooking forum",
         description: "Culinary forum where you can find any kind of recipes. " +

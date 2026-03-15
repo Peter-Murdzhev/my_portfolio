@@ -2,19 +2,19 @@ export const skills = {
     Frontend: [
         "HTML",
         "CSS",
-        "Javascript",
+        "Tailwind",
+        "JavaScript",
+        "TypeScript",
         "React",
         "Next.js",
-        "Tailwind",
-        "Redux"
     ],
     Backend: [
-        "Node.js",
-        "Express.js",
         "Java",
         "Spring Boot",
         "Spring Security",
-        "JWT",
+        "JavaScript",
+        "TypeScript",
+        "Express.js",
         "OOP",
         "Functional programing"
     ],
