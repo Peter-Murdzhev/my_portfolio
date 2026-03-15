@@ -36,7 +36,7 @@ export const projects = [
         "The info includes movie's reviews if there's any. A trailer for more popular movies. " +
         "I'm using TMDB API which has a pretty rich database. So enjoy!",
         technologies: ["React"],
-        link: "https://movies-finder-puce.vercel.app/"
+        link: "https://movies-finder-hub.vercel.app/"
     },
     {
         imageURL: "/website_covers/scientific_news_website_cover.jpg",
