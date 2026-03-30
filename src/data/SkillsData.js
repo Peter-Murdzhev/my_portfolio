@@ -1,20 +1,20 @@
 export const skills = {
     Frontend: [
-        "HTML",
-        "CSS",
-        "Tailwind",
-        "JavaScript",
-        "TypeScript",
         "React",
         "Next.js",
+        "JavaScript",
+        "TypeScript",
+        "CSS",
+        "Tailwind",
+        "HTML",
     ],
     Backend: [
-        "Java",
-        "Spring Boot",
-        "Spring Security",
         "JavaScript",
         "TypeScript",
         "Express.js",
+        "Java",
+        "Spring Boot",
+        "Spring Security",
         "OOP",
         "Functional programing"
     ],
@@ -22,7 +22,7 @@ export const skills = {
         "PostgreSQL",
         "MySQL",
         "MongoDB",
-        "Spring Data GPA",
+        "Spring Data JPA",
         "Prisma ORM"
     ],
     "Cloud services":[ "Supabase", "Neon.tech", "MongoDB Atlas", "Cloudinary"],

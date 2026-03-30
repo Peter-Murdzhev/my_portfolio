@@ -443,7 +443,7 @@ section {
   }
 
   .about_me p{
-    font-size: 17px;
+    font-size: 18px;
     width: 280px;
   }
 
@@ -452,13 +452,15 @@ section {
     width: 130px;
     height: 40px;
     margin-left: 70px;
+    margin-top: 50px;
   }
 
   .skills{
     width: 260px;
     padding: 10px;
     gap: 30px;
-    margin-top: 80px;
+    margin-top: 120px;
+
   }
 
   .skills_category button{

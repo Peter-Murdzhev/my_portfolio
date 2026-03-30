@@ -3,55 +3,59 @@ export const projects = [
         imageURL: "/website_covers/books_hunter.jpg",
         name: "Books Hunter",
         description: "A website for searching any books worldwide. " +
-        "You can find information about any book you want. " +
-        "On the homepage you receive a list with the New York Times bestsellers. " +
-        "You can create an acount and keep a list of your favourite books. " +
-        "The system estimates user preferred genres and recommends books for you. ",
+            "Integrated Open Library API and New  York Times API for books data. " +
+            "Designed recommendation logic based on user preferences. " +
+            "Supabase auth and database, and saving favourite books functionality. " +
+            "Built responsive UI using Tailwind.",
         technologies: ["Next", "Tailwind", "Supabase", "TypeScript"],
         link: "https://books-hunter-web.vercel.app/"
     },
     {
-        imageURL: "/website_covers/cooking_forum_cover.jpg",
-        name: "Cooking forum",
-        description: "Culinary forum where you can find any kind of recipes. " +
-        "You can create an account and add, edit or delete your own recipes. " +
-        "You can add favourite recipes and write comments. " +
-        "Initial website loading may take 20 seconds. ",
-        technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
-        link: "https://cookingland-c30b65be.koyeb.app/"
-    },
-    {
         imageURL: "/website_covers/clothing_store_cover.jpg",
         name: "Clothing store",
-        description: "Clothing store website with all the basic functionalities of a real store. "+
-        "The web design is simple, clean and easy to use. I fetch products from Dummy JSON so there's "+
-        "only few products to test with in each category. But still It's just a demo online shop.",
+        description: "Fullstack e-commerce application with order management. " +
+            "Designed database using PostgreSQL and Prisma ORM. Implemented custom authentication system. " +
+            "Developed features for order creation and tracking. Developed dynamic UI and optimized UX.",
         technologies: ["Next", "PostgreSQL", "Neon", "Prisma"],
         link: "https://velvetaire-clothing-store.vercel.app/"
     },
     {
         imageURL: "/website_covers/movies_search_website_cover.jpg",
         name: "Movies finder website",
-        description: "Website where you can find info about any movie you want. " +
-        "The info includes movie's reviews if there's any. A trailer for more popular movies. " +
-        "I'm using TMDB API which has a pretty rich database. So enjoy!",
+        description: "Movie finder application using the TMDB API to retrieve and display real time " +
+            "movie data. Implemented features for  browsing movie details, including reviews, ratings, and " +
+            "trailers for popular movies. Built a responsive UI for efficient data presentation.",
         technologies: ["React"],
         link: "https://movies-finder-hub.vercel.app/"
     },
     {
+        imageURL: "/website_covers/cooking_forum_cover.jpg",
+        name: "Cooking forum",
+        description: "Fullstack web application for sharing and managing recipes. " +
+            "Implemented user authentication and authorization with Spring Boot. " +
+            "Built features for saving favourite recipes and adding comments. " +
+            "Designed REST APIs and integrated MongoDB for persistent data storage. " +
+            "Designed responsive frontend with React. " +
+            "Initial load may be slower due to hosting cold start. ",
+        technologies: ["React", "Spring Boot", "MongoDB", "Mongo Cloud", "Cloudinary"],
+        link: "https://cookingland-c30b65be.koyeb.app/"
+    },
+    {
         imageURL: "/website_covers/scientific_news_website_cover.jpg",
         name: "Scientific news",
-        description: "In this website you can find any kind of scientific news. "+
-        "There are main categories but in the search bar you can search by keywords any other "+
-        "categories you like. Sadly the free tier is limited and the articles provided are cut "+
-        "to only 2-3 lines.",
+        description: "Web application for browsing scientific news. " +
+            "Implemented category based navigation and keyword search functionality for " +
+            "flexible content discovery. Integrated third-party news API for retrieving real time articles. " +
+            "NOTE: Article contents are limited due to API free tier limitations.",
         technologies: ["React"],
         link: "https://science-news-taupe.vercel.app/"
     },
     {
         imageURL: "/website_covers/harry_potter_development_history_cover.jpg",
         name: "Harry Potter books history",
-        description: "Website showing info about the creation process of Harry Potter books",
+        description: "React-based web application presenting the creation process of Harry Potter books. " +
+        "Built responsive UI for structured content display. " +
+        "Presented static content in clear and user friendly way.",
         technologies: ["React"],
         link: "https://harry-potter-dev-history.vercel.app/"
     }
