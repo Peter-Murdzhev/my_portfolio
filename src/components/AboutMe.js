@@ -29,7 +29,7 @@ const AboutMe = () => {
                     applications.
                     <br /><br />
                     I have hands-on experience developing fullstack projects using React, Next.js and
-                    Spring Boot, with strong knowledge of REST APIs, databases and modern
+                    Spring Boot. With strong knowledge of REST APIs, databases and modern
                     developer tools.
                     <br /><br />
                     I enjoy turning complex problems into simple and efficient solutions. <br />

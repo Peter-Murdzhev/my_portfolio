@@ -3,11 +3,11 @@ export const projects = [
         imageURL: "/website_covers/books_hunter.jpg",
         name: "Books Hunter",
         description: "A website for searching any books worldwide. " +
-            "Integrated Open Library API and New  York Times API for books data. " +
+            "Integrated Open Library API and New York Times API for books data. " +
             "Designed recommendation logic based on user preferences. " +
             "Supabase auth and database, and saving favourite books functionality. " +
             "Built responsive UI using Tailwind.",
-        technologies: ["Next", "Tailwind", "Supabase", "TypeScript"],
+        technologies: ["Next.js", "Tailwind", "Supabase", "TypeScript"],
         link: "https://books-hunter-web.vercel.app/"
     },
     {
@@ -16,14 +16,14 @@ export const projects = [
         description: "Fullstack e-commerce application with order management. " +
             "Designed database using PostgreSQL and Prisma ORM. Implemented custom authentication system. " +
             "Developed features for order creation and tracking. Developed dynamic UI and optimized UX.",
-        technologies: ["Next", "PostgreSQL", "Neon", "Prisma"],
+        technologies: ["Next.js", "PostgreSQL", "Neon", "Prisma"],
         link: "https://velvetaire-clothing-store.vercel.app/"
     },
     {
         imageURL: "/website_covers/movies_search_website_cover.jpg",
         name: "Movies finder website",
         description: "Movie finder application using the TMDB API to retrieve and display real time " +
-            "movie data. Implemented features for  browsing movie details, including reviews, ratings, and " +
+            "movie data. Implemented features for browsing movie details including ratings, reviews and " +
             "trailers for popular movies. Built a responsive UI for efficient data presentation.",
         technologies: ["React"],
         link: "https://movies-finder-hub.vercel.app/"
