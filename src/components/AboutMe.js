@@ -41,10 +41,10 @@ const AboutMe = () => {
 
             </div>
 
-            <button className="contact_call_action" onClick={() => {
+            {/* <button className="contact_call_action" onClick={() => {
                 setSelectedTab("contacts");
                 handleScroll("contacts");
-            }}>Contact Me</button>
+            }}>Contact Me</button> */}
         </>
 
     )

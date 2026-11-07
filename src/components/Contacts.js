@@ -25,7 +25,7 @@ const Contacts = () => {
                     <input name="email" type="email" placeholder="Enter your email"></input>
                     <input name="subject" type="text" placeholder="Enter subject"></input>
                     <textarea name="message" placeholder="Let me know what you have in mind?"></textarea>
-                    {!state.success && state.message && <p>{state.message}</p>}
+                    {!state.success && state.message && <p style={{color: "rgb(255, 0, 0)"}}>{state.message}</p>}
                     {state.success && <p>{state.message}</p>}
                     <button>Send</button>
                 </form>
