@@ -13,8 +13,45 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Murdzhev's portfolio",
-  description: "Passionate Web developer creating any kind of websites",
+  metadataBase: new URL("https://murdzhev-portfolio-web.vercel.app"),
+
+  title: {
+    default: "Petar Murdzhev | Web Developer & Portfolio",
+    template: "%s | Petar Murdzhev"
+  },
+
+  description:
+    "Petar Murdzhev (Петър Мурджев) is a web developer passionate about building modern," +
+    " responsive and user-friendly websites and web applications.",
+
+  authors: [
+    {
+      name: "Petar Murdzhev"
+    }
+  ],
+
+  creator: "Petar Murdzhev",
+
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    siteName: "Petar Murdzhev",
+    title: "Petar Murdzhev | Web Developer",
+    description:
+      "Explore the portfolio, projects and web development work of Petar Murdzhev (Петър Мурджев).",
+    url: "/",
+    images: ["/cv_photo1.png"],
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+    },
+  },
 };
 
 export default function RootLayout({ children }) {
