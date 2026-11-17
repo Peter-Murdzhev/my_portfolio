@@ -52,6 +52,10 @@ export const metadata = {
       "max-image-preview": "large",
     },
   },
+
+  verification: {
+    google: "nwcTlwQsUrdPqxDnLlag1nWxqjgFilg8ZBXfSLvo9Uo"
+  }
 };
 
 export default function RootLayout({ children }) {
