@@ -9,7 +9,10 @@ const Hero = () => {
   return (
     <div className="home">
       <div className="hero">
-        <h1>Petar Murdzhev</h1>
+        <h1>Petar murdzhev
+          <br/>
+          <span>Петър Мурджев</span>
+        </h1>
         <h2>Web developer</h2>
       </div>
 

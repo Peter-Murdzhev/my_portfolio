@@ -16,7 +16,7 @@ export const metadata = {
   metadataBase: new URL("https://murdzhev-portfolio-web.vercel.app"),
 
   title: {
-    default: "Petar Murdzhev | Web Developer & Portfolio",
+    default: "Petar Murdzhev (Петър Мурджев) | Web Developer",
     template: "%s | Petar Murdzhev"
   },
 
@@ -36,7 +36,7 @@ export const metadata = {
     type: "website",
     locale: "en_US",
     siteName: "Petar Murdzhev",
-    title: "Petar Murdzhev | Web Developer",
+    title: "Petar Murdzhev (Петър Мурджев) | Web Developer",
     description:
       "Explore the portfolio, projects and web development work of Petar Murdzhev (Петър Мурджев).",
     url: "/",
